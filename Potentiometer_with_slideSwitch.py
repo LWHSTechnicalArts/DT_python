@@ -17,7 +17,7 @@ switch.pull = Pull.UP
  
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False)
 
-PURPLE = (180, 0, 255)
+
 OFF = (0,0,0)
 
 while True:
