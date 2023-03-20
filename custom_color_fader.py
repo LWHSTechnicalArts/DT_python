@@ -4,7 +4,7 @@ import neopixel
 from digitalio import DigitalInOut, Direction, Pull
 
 pixel_pin = board.D2
-num_pixels = 12
+num_pixels = 16
  
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False)
  
