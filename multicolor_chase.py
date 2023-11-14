@@ -4,7 +4,7 @@ import board
 import neopixel
 
 pixel_pin = board.D2
-num_pixels = 12
+num_pixels = 16
 
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.1, auto_write=False)
 
@@ -32,7 +32,7 @@ while True:
             COLOR = BLUE 
         if (c == 5): 
             COLOR = PURPLE 
-        for i in range(0, 12, 1): 
+        for i in range(0, 16, 1): 
             pixels[i] = COLOR 
             pixels.show() 
             time.sleep(0.1)
