@@ -32,7 +32,7 @@ while True:
             COLOR = BLUE 
         if (c == 5): 
             COLOR = PURPLE 
-        for i in range(0, 16, 1): 
+        for i in range(0, num_pixels, 1): 
             pixels[i] = COLOR 
             pixels.show() 
             time.sleep(0.1)
