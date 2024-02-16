@@ -23,9 +23,9 @@ OFF = (0,0,0)
 
 def handleMode(mode): 
     if (mode == 0):
-        animateOn()
-    elif (mode == 1):
         animateOff()
+    elif (mode == 1):
+        animateOn()
 
 
 # this function runs an animation that animates all LEDs on
