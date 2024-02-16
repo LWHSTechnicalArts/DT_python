@@ -41,13 +41,13 @@ while True:
     if press_count==2:
         for num in range(0,254,2):   #fade in loop
             COLOR=(num,0,num)
-            if (switch.value==False):
-                press_check()
+            press_check()# We need to check our button while we fade! 
             for i in range(0,12,1):
                 pixels[i]=COLOR
             pixels.show()
         for num in range(254,0,-2):   #fade out loop
             COLOR=(num,0,num)
+            press_check() # We need to check our button while we fade!
             for i in range(0,12,1):
                 pixels[i]=COLOR
             pixels.show()
