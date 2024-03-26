@@ -1,3 +1,5 @@
+# Sample code: Potentiometer with Slide Switch
+
 import time
 import analogio
 import board
