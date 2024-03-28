@@ -1,3 +1,5 @@
+# Animate On and Off 
+
 import time
 import board
 import neopixel
@@ -26,7 +28,6 @@ def handleMode(mode):
         animateOff()
     elif (mode == 1):
         animateOn()
-
 
 # this function runs an animation that animates all LEDs on
 # when it's done, the LEDs will stay on until we tell them to do something else. 

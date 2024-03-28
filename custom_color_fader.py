@@ -1,3 +1,8 @@
+# Custom Color Fader 
+
+# Universal color fader helper function
+# This will fade between two colors at an even rate. 
+
 import time
 import board
 import neopixel
@@ -8,14 +13,8 @@ num_pixels = 16
  
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False)
  
-RED = (255, 0, 0)
 YELLOW = (255, 150, 0)
-GREEN = (0, 255, 0)
-CYAN = (0, 255, 255)
-BLUE = (0, 0, 255)
 PURPLE = (180, 0, 255)
-WHITE = (255,255,255)
-OFF = (0,0,0)
 
 # helper function for fading - do not touch
 def fade(c1, c2):
