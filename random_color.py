@@ -1,3 +1,5 @@
+# random_color 
+
 import board
 import neopixel
 import time

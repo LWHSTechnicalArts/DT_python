@@ -1,3 +1,4 @@
+# switch_and_button.py
 # In this example, we use both a slide switch and a button. 
 # The switch turns the whole light on and off. 
 # The button switches between colors. 

@@ -1,4 +1,4 @@
-# Sample code: Potentiometer with Slide Switch
+# Potentiometer with Slide Switch
 
 import time
 import analogio

@@ -1,3 +1,4 @@
+# interruptable_multifade_mode
 # Interrupting multiple fades at once
 
 # In this example, we have a mode that does two fades (one on, and one off). 
