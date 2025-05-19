@@ -38,7 +38,7 @@ def crossfade(from_color, to_color, step_wait_time):
     rgb_changes = [to_value - from_value for to_value, from_value in zip(to_color, from_color)]
     abs_changes = [abs(change) for change in rgb_changes]
     max_abs_change = max(abs_changes)
-    rgb_increments = [int(change / abs(change)) for change in rgb_changes]
+    rgb_increments = [int(change / abs(change)) if change != 0 else 0 for change in rgb_changes]
     now_color = from_color
 
     for i in range(0, max_abs_change):
