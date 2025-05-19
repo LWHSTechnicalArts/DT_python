@@ -44,9 +44,9 @@ def crossfade(from_color, to_color, step_wait_time):
     # Should red, green, and blue increase or decrease on the way from from_color to to_color?
     # We compare the absolute value of each change against the true value to arrive at a 1 or a -1 for each color.
     # An increment of -1 will decrease the color's value, while an increment of 1 will increase the color's value.
-    increment_r = int(change_r / abs(change_r))
-    increment_g = int(change_g / abs(change_g))
-    increment_b = int(change_b / abs(change_b))
+    increment_r = int(change_r / abs(change_r)) if change_r !=0 else 0
+    increment_g = int(change_g / abs(change_g))if change_g !=0 else 0
+    increment_b = int(change_b / abs(change_b)) if change_b !=0 else 0
 
     # We'll start our fade at from_color,
     # and keep track of the in-between colors with now_color.
@@ -60,7 +60,7 @@ def crossfade(from_color, to_color, step_wait_time):
         new_g = now_g if to_g == now_g else now_g + increment_g
         new_b = now_b if to_b == now_b else now_b + increment_b
         
-        now_color = (round(new_r), round(new_g), round(new_b)) # We overwrite now_color with our new color,
+        now_color = (new_r, new_g, new_b) # We overwrite now_color with our new color,
         # and then we light up and log the new color
         print('now_color:', now_color)
         for i in range(len(pixels)):
