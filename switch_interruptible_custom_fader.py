@@ -1,3 +1,5 @@
+# Created: 2024-05-13
+# Written for CircuitPython 3.1.1
 # Interrupting custom fader immediately with switch
 
 # This example updates the custom fader to also include switch input.

@@ -1,5 +1,7 @@
-import time 
-import board 
+# Created: 2025-05-14
+# Written for CircuitPython 3.1.1
+import time
+import board
 import neopixel
 
 pixel_pin = board.D2

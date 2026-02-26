@@ -1,4 +1,6 @@
-# button_and_potentiometer 
+# Created: 2023-02-10
+# Written for CircuitPython 3.1.1
+# button_and_potentiometer
 
 import time
 import analogio

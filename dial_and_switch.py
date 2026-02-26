@@ -1,4 +1,6 @@
-# dial_and_switch 
+# Created: 2021-06-07
+# Written for CircuitPython 3.1.1
+# dial_and_switch
 
 import time
 import board

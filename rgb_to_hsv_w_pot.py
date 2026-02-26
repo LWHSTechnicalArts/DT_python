@@ -1,4 +1,5 @@
-# Write your code here :-)
+# Created: 2025-08-14
+# Written for CircuitPython 3.1.1
 import board
 import time
 import digitalio

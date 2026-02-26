@@ -1,3 +1,5 @@
+# Created: 2023-02-10
+# Written for CircuitPython 3.1.1
 # Potentiometer with Slide Switch
 
 import time

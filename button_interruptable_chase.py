@@ -1,4 +1,6 @@
-#button_interruptable_chase 
+# Created: 2024-02-16
+# Written for CircuitPython 3.1.1
+#button_interruptable_chase
 #note time.sleep for the chasing sequence must be short for the button to feel responsive
 
 import time
