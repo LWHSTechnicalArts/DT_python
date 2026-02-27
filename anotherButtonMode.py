@@ -1,3 +1,5 @@
+# Created: 2026-02-12
+# Written for CircuitPython 3.1.1
 import time
 import board
 import neopixel

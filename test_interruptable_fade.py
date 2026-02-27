@@ -1,3 +1,5 @@
+# Created: 2024-02-16
+# Written for CircuitPython 3.1.1
 # test_interruptable_fade
 
 import time

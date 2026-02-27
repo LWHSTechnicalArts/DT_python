@@ -1,4 +1,6 @@
-# multi_button.py 
+# Created: 2022-02-09
+# Written for CircuitPython 3.1.1
+# multi_button.py
 
 import time
 import board

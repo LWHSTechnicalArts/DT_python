@@ -1,4 +1,6 @@
-# Custom Color Fader 
+# Created: 2022-03-22
+# Written for CircuitPython 3.1.1
+# Custom Color Fader
 
 # Universal color fader helper function
 # This will fade between two colors at an even rate. 

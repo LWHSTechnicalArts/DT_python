@@ -1,4 +1,6 @@
-# random_color 
+# Created: 2024-02-15
+# Written for CircuitPython 3.1.1
+# random_color
 
 import board
 import neopixel
