@@ -53,7 +53,7 @@ while True:
         smoothed_dial_value = 0
     print("normed value:", normalized_dial_value)
     if (switch.value==True):
-        time.sleep(0.2)
+        time.sleep(0.1)
         print(normalized_dial_value)
         pixels.fill((int(255 * normalized_dial_value), int(255 * normalized_dial_value), int(255 * normalized_dial_value)))
         pixels.show()
@@ -61,4 +61,4 @@ while True:
     else:
         pixels.fill(OFF)
         pixels.show()
-        time.sleep(1)  # debounce delay
+        time.sleep(0.1)  # debounce delay
