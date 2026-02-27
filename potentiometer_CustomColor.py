@@ -41,7 +41,7 @@ while True:
         normalized_dial_value = range_map(smoothed_dial_value, dial_min, dial_max, 0, 1)
     else:
         normalized_dial_value = 0
-    if normalized_dial_value < 0.01:
+    if normalized_dial_value < 0.02:
         normalized_dial_value = 0
     print("normed value:", normalized_dial_value)
     pixels.fill((int(red * normalized_dial_value), int(green * normalized_dial_value), int(blue * normalized_dial_value)))
