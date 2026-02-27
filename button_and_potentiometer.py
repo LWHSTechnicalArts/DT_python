@@ -35,13 +35,12 @@ pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=Fal
 YELLOW = (255, 150, 0)
 OFF = (0,0,0)
 
-now=0
+now = 0
 dial_min = 1300 # needs to be close but a little higher than the actual min value you observe
 dial_max = 65000 # needs to be close but a little lower than the actual max value you observe
 smoothed_dial_value = 0
 
 while True:
-    time.sleep(0.01)
     smoothed_dial_value = smooth(dial.value, smoothed_dial_value, 0.1)
     if smoothed_dial_value < 0.01:
         smoothed_dial_value = 0
@@ -62,7 +61,8 @@ while True:
         pixels.show()
     if(now == 1):
         print(normalized_dial_value)
-        pixels.fill((int(255 * normalized_dial_value), int(255 * normalized_dial_value), int(255 * normalized_dial_value)))
+        color = (int(255 * normalized_dial_value), int(255 * normalized_dial_value), int(255 * normalized_dial_value))
+        print("color: ", color)
+        pixels.fill(color)
         pixels.show()
-
     time.sleep(0.12)  # debounce delay
