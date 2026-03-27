@@ -1,3 +1,5 @@
+# Created: 2024-03-21
+# Written for CircuitPython 3.1.1
 # Interrupting custom fader at once
 
 # This example updates the custom foder to also include button input. 

@@ -1,5 +1,5 @@
-import time
-import board
+# Created: 2025-04-02
+# Written for CircuitPython 3.1.1
 import time
 import board
 import neopixel

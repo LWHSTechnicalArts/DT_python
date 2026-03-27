@@ -1,4 +1,6 @@
-# Animate On and Off 
+# Created: 2024-02-14
+# Written for CircuitPython 3.1.1
+# Animate On and Off
 
 import time
 import board

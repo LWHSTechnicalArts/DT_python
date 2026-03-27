@@ -1,4 +1,6 @@
-# nested_loop_interrupt 
+# Created: 2024-02-16
+# Written for CircuitPython 3.1.1
+# nested_loop_interrupt
 
 import time
 import board

@@ -1,3 +1,5 @@
+# Created: 2022-03-22
+# Written for CircuitPython 3.1.1
 #by Ethan Dunn
 import time 
 import board 

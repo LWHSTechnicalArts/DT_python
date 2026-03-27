@@ -1,3 +1,5 @@
+# Created: 2025-05-15
+# Written for CircuitPython 3.1.1
 # Custom Color Fader
 
 # Universal color fader helper function

@@ -1,3 +1,5 @@
+# Created: 2024-03-21
+# Written for CircuitPython 3.1.1
 # interruptable_multifade_mode
 # Interrupting multiple fades at once
 
